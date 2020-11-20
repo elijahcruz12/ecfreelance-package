@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ecwebservices\ecframework;
 
-class SkeletonClass
+class App
 {
     /**
      * Create a new Skeleton Instance
@@ -15,14 +15,10 @@ class SkeletonClass
     }
 
     /**
-     * Friendly welcome
      *
-     * @param string $phrase Phrase to return
-     *
-     * @return string Returns the phrase passed in
      */
-    public function echoPhrase(string $phrase): string
+    public function init(): void
     {
-        return $phrase;
+
     }
 }

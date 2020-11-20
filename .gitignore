@@ -4,3 +4,22 @@ vendor
 phpcs.xml
 phpunit.xml
 .phpunit.result.cache
+.env
+.env.example
+.env.testing
+.gitignore
+.idea/
+app/
+composer.json
+config/
+database/
+public/
+resources/
+routes/
+storage/
+tests/
+Would skip repository vendor/ecwebservices/ecframework
+vendor/composer
+vendor/autoload.php
+vendor/twig
+vendor/symfony
