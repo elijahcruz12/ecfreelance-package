@@ -5,12 +5,11 @@
 
 
     use Dotenv\Dotenv;
-    use ecwebservices\ecframework\App;
 
     class Config
     {
-        public function init(){
-            $config = Dotenv::createImmutable(App::$directory);
+        public function __construct($directory){
+            $config = Dotenv::createImmutable($directory);
             $config->load();
 
             return $config;
