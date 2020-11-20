@@ -6,7 +6,7 @@ namespace ecwebservices\ecframework;
 
 class App
 {
-    public $directory;
+    public static $directory;
     /**
      * Create a new Skeleton Instance
      */

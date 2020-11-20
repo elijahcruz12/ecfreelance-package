@@ -10,7 +10,7 @@
     class Config
     {
         public function init(){
-            $config = Dotenv::createImmutable(App::directory);
+            $config = Dotenv::createImmutable(App::$directory);
             $config->load();
 
             return $config;
